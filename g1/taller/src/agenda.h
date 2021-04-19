@@ -5,7 +5,9 @@
 #ifndef TALLER_AGENDA_H
 #define TALLER_AGENDA_H
 #include <list>
-#include "clases.h"
+#include "recordatorio.h"
+#include "horario.h"
+#include "fecha.h"
 
 class Agenda{
 public:

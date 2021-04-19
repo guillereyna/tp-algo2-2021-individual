@@ -229,38 +229,104 @@ src/agenda.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/gtest.dir/build.make CMakeFiles/gtest.dir/src/agenda.cpp.s
 .PHONY : src/agenda.cpp.s
 
-src/clases.o: src/clases.cpp.o
+src/fecha.o: src/fecha.cpp.o
 
-.PHONY : src/clases.o
+.PHONY : src/fecha.o
 
 # target to build an object file
-src/clases.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/taller.dir/build.make CMakeFiles/taller.dir/src/clases.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/gtest_main.dir/build.make CMakeFiles/gtest_main.dir/src/clases.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/gtest.dir/build.make CMakeFiles/gtest.dir/src/clases.cpp.o
-.PHONY : src/clases.cpp.o
+src/fecha.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/taller.dir/build.make CMakeFiles/taller.dir/src/fecha.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gtest_main.dir/build.make CMakeFiles/gtest_main.dir/src/fecha.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gtest.dir/build.make CMakeFiles/gtest.dir/src/fecha.cpp.o
+.PHONY : src/fecha.cpp.o
 
-src/clases.i: src/clases.cpp.i
+src/fecha.i: src/fecha.cpp.i
 
-.PHONY : src/clases.i
+.PHONY : src/fecha.i
 
 # target to preprocess a source file
-src/clases.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/taller.dir/build.make CMakeFiles/taller.dir/src/clases.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/gtest_main.dir/build.make CMakeFiles/gtest_main.dir/src/clases.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/gtest.dir/build.make CMakeFiles/gtest.dir/src/clases.cpp.i
-.PHONY : src/clases.cpp.i
+src/fecha.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/taller.dir/build.make CMakeFiles/taller.dir/src/fecha.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gtest_main.dir/build.make CMakeFiles/gtest_main.dir/src/fecha.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gtest.dir/build.make CMakeFiles/gtest.dir/src/fecha.cpp.i
+.PHONY : src/fecha.cpp.i
 
-src/clases.s: src/clases.cpp.s
+src/fecha.s: src/fecha.cpp.s
 
-.PHONY : src/clases.s
+.PHONY : src/fecha.s
 
 # target to generate assembly for a file
-src/clases.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/taller.dir/build.make CMakeFiles/taller.dir/src/clases.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/gtest_main.dir/build.make CMakeFiles/gtest_main.dir/src/clases.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/gtest.dir/build.make CMakeFiles/gtest.dir/src/clases.cpp.s
-.PHONY : src/clases.cpp.s
+src/fecha.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/taller.dir/build.make CMakeFiles/taller.dir/src/fecha.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gtest_main.dir/build.make CMakeFiles/gtest_main.dir/src/fecha.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gtest.dir/build.make CMakeFiles/gtest.dir/src/fecha.cpp.s
+.PHONY : src/fecha.cpp.s
+
+src/horario.o: src/horario.cpp.o
+
+.PHONY : src/horario.o
+
+# target to build an object file
+src/horario.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/taller.dir/build.make CMakeFiles/taller.dir/src/horario.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gtest_main.dir/build.make CMakeFiles/gtest_main.dir/src/horario.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gtest.dir/build.make CMakeFiles/gtest.dir/src/horario.cpp.o
+.PHONY : src/horario.cpp.o
+
+src/horario.i: src/horario.cpp.i
+
+.PHONY : src/horario.i
+
+# target to preprocess a source file
+src/horario.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/taller.dir/build.make CMakeFiles/taller.dir/src/horario.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gtest_main.dir/build.make CMakeFiles/gtest_main.dir/src/horario.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gtest.dir/build.make CMakeFiles/gtest.dir/src/horario.cpp.i
+.PHONY : src/horario.cpp.i
+
+src/horario.s: src/horario.cpp.s
+
+.PHONY : src/horario.s
+
+# target to generate assembly for a file
+src/horario.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/taller.dir/build.make CMakeFiles/taller.dir/src/horario.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gtest_main.dir/build.make CMakeFiles/gtest_main.dir/src/horario.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gtest.dir/build.make CMakeFiles/gtest.dir/src/horario.cpp.s
+.PHONY : src/horario.cpp.s
+
+src/recordatorio.o: src/recordatorio.cpp.o
+
+.PHONY : src/recordatorio.o
+
+# target to build an object file
+src/recordatorio.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/taller.dir/build.make CMakeFiles/taller.dir/src/recordatorio.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gtest_main.dir/build.make CMakeFiles/gtest_main.dir/src/recordatorio.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gtest.dir/build.make CMakeFiles/gtest.dir/src/recordatorio.cpp.o
+.PHONY : src/recordatorio.cpp.o
+
+src/recordatorio.i: src/recordatorio.cpp.i
+
+.PHONY : src/recordatorio.i
+
+# target to preprocess a source file
+src/recordatorio.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/taller.dir/build.make CMakeFiles/taller.dir/src/recordatorio.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gtest_main.dir/build.make CMakeFiles/gtest_main.dir/src/recordatorio.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gtest.dir/build.make CMakeFiles/gtest.dir/src/recordatorio.cpp.i
+.PHONY : src/recordatorio.cpp.i
+
+src/recordatorio.s: src/recordatorio.cpp.s
+
+.PHONY : src/recordatorio.s
+
+# target to generate assembly for a file
+src/recordatorio.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/taller.dir/build.make CMakeFiles/taller.dir/src/recordatorio.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gtest_main.dir/build.make CMakeFiles/gtest_main.dir/src/recordatorio.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gtest.dir/build.make CMakeFiles/gtest.dir/src/recordatorio.cpp.s
+.PHONY : src/recordatorio.cpp.s
 
 tests/gtest-1.8.1/gtest-all.o: tests/gtest-1.8.1/gtest-all.cc.o
 
@@ -333,9 +399,15 @@ help:
 	@echo "... src/agenda.o"
 	@echo "... src/agenda.i"
 	@echo "... src/agenda.s"
-	@echo "... src/clases.o"
-	@echo "... src/clases.i"
-	@echo "... src/clases.s"
+	@echo "... src/fecha.o"
+	@echo "... src/fecha.i"
+	@echo "... src/fecha.s"
+	@echo "... src/horario.o"
+	@echo "... src/horario.i"
+	@echo "... src/horario.s"
+	@echo "... src/recordatorio.o"
+	@echo "... src/recordatorio.i"
+	@echo "... src/recordatorio.s"
 	@echo "... tests/gtest-1.8.1/gtest-all.o"
 	@echo "... tests/gtest-1.8.1/gtest-all.i"
 	@echo "... tests/gtest-1.8.1/gtest-all.s"

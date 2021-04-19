@@ -90,22 +90,9 @@ CMakeFiles/taller.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/taller.dir/main.cpp.s"
 	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/cygdrive/d/Universidad/Algoritmos y Estructuras de Datos II/TPs/Individual/algo2-2021c1-individual/g1/taller/main.cpp" -o CMakeFiles/taller.dir/main.cpp.s
 
-CMakeFiles/taller.dir/src/clases.cpp.o: CMakeFiles/taller.dir/flags.make
-CMakeFiles/taller.dir/src/clases.cpp.o: ../src/clases.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/cygdrive/d/Universidad/Algoritmos y Estructuras de Datos II/TPs/Individual/algo2-2021c1-individual/g1/taller/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/taller.dir/src/clases.cpp.o"
-	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/taller.dir/src/clases.cpp.o -c "/cygdrive/d/Universidad/Algoritmos y Estructuras de Datos II/TPs/Individual/algo2-2021c1-individual/g1/taller/src/clases.cpp"
-
-CMakeFiles/taller.dir/src/clases.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/taller.dir/src/clases.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/cygdrive/d/Universidad/Algoritmos y Estructuras de Datos II/TPs/Individual/algo2-2021c1-individual/g1/taller/src/clases.cpp" > CMakeFiles/taller.dir/src/clases.cpp.i
-
-CMakeFiles/taller.dir/src/clases.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/taller.dir/src/clases.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/cygdrive/d/Universidad/Algoritmos y Estructuras de Datos II/TPs/Individual/algo2-2021c1-individual/g1/taller/src/clases.cpp" -o CMakeFiles/taller.dir/src/clases.cpp.s
-
 CMakeFiles/taller.dir/src/agenda.cpp.o: CMakeFiles/taller.dir/flags.make
 CMakeFiles/taller.dir/src/agenda.cpp.o: ../src/agenda.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/cygdrive/d/Universidad/Algoritmos y Estructuras de Datos II/TPs/Individual/algo2-2021c1-individual/g1/taller/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/taller.dir/src/agenda.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/cygdrive/d/Universidad/Algoritmos y Estructuras de Datos II/TPs/Individual/algo2-2021c1-individual/g1/taller/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/taller.dir/src/agenda.cpp.o"
 	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/taller.dir/src/agenda.cpp.o -c "/cygdrive/d/Universidad/Algoritmos y Estructuras de Datos II/TPs/Individual/algo2-2021c1-individual/g1/taller/src/agenda.cpp"
 
 CMakeFiles/taller.dir/src/agenda.cpp.i: cmake_force
@@ -116,21 +103,64 @@ CMakeFiles/taller.dir/src/agenda.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/taller.dir/src/agenda.cpp.s"
 	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/cygdrive/d/Universidad/Algoritmos y Estructuras de Datos II/TPs/Individual/algo2-2021c1-individual/g1/taller/src/agenda.cpp" -o CMakeFiles/taller.dir/src/agenda.cpp.s
 
+CMakeFiles/taller.dir/src/fecha.cpp.o: CMakeFiles/taller.dir/flags.make
+CMakeFiles/taller.dir/src/fecha.cpp.o: ../src/fecha.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/cygdrive/d/Universidad/Algoritmos y Estructuras de Datos II/TPs/Individual/algo2-2021c1-individual/g1/taller/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/taller.dir/src/fecha.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/taller.dir/src/fecha.cpp.o -c "/cygdrive/d/Universidad/Algoritmos y Estructuras de Datos II/TPs/Individual/algo2-2021c1-individual/g1/taller/src/fecha.cpp"
+
+CMakeFiles/taller.dir/src/fecha.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/taller.dir/src/fecha.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/cygdrive/d/Universidad/Algoritmos y Estructuras de Datos II/TPs/Individual/algo2-2021c1-individual/g1/taller/src/fecha.cpp" > CMakeFiles/taller.dir/src/fecha.cpp.i
+
+CMakeFiles/taller.dir/src/fecha.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/taller.dir/src/fecha.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/cygdrive/d/Universidad/Algoritmos y Estructuras de Datos II/TPs/Individual/algo2-2021c1-individual/g1/taller/src/fecha.cpp" -o CMakeFiles/taller.dir/src/fecha.cpp.s
+
+CMakeFiles/taller.dir/src/horario.cpp.o: CMakeFiles/taller.dir/flags.make
+CMakeFiles/taller.dir/src/horario.cpp.o: ../src/horario.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/cygdrive/d/Universidad/Algoritmos y Estructuras de Datos II/TPs/Individual/algo2-2021c1-individual/g1/taller/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/taller.dir/src/horario.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/taller.dir/src/horario.cpp.o -c "/cygdrive/d/Universidad/Algoritmos y Estructuras de Datos II/TPs/Individual/algo2-2021c1-individual/g1/taller/src/horario.cpp"
+
+CMakeFiles/taller.dir/src/horario.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/taller.dir/src/horario.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/cygdrive/d/Universidad/Algoritmos y Estructuras de Datos II/TPs/Individual/algo2-2021c1-individual/g1/taller/src/horario.cpp" > CMakeFiles/taller.dir/src/horario.cpp.i
+
+CMakeFiles/taller.dir/src/horario.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/taller.dir/src/horario.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/cygdrive/d/Universidad/Algoritmos y Estructuras de Datos II/TPs/Individual/algo2-2021c1-individual/g1/taller/src/horario.cpp" -o CMakeFiles/taller.dir/src/horario.cpp.s
+
+CMakeFiles/taller.dir/src/recordatorio.cpp.o: CMakeFiles/taller.dir/flags.make
+CMakeFiles/taller.dir/src/recordatorio.cpp.o: ../src/recordatorio.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/cygdrive/d/Universidad/Algoritmos y Estructuras de Datos II/TPs/Individual/algo2-2021c1-individual/g1/taller/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/taller.dir/src/recordatorio.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/taller.dir/src/recordatorio.cpp.o -c "/cygdrive/d/Universidad/Algoritmos y Estructuras de Datos II/TPs/Individual/algo2-2021c1-individual/g1/taller/src/recordatorio.cpp"
+
+CMakeFiles/taller.dir/src/recordatorio.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/taller.dir/src/recordatorio.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/cygdrive/d/Universidad/Algoritmos y Estructuras de Datos II/TPs/Individual/algo2-2021c1-individual/g1/taller/src/recordatorio.cpp" > CMakeFiles/taller.dir/src/recordatorio.cpp.i
+
+CMakeFiles/taller.dir/src/recordatorio.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/taller.dir/src/recordatorio.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/cygdrive/d/Universidad/Algoritmos y Estructuras de Datos II/TPs/Individual/algo2-2021c1-individual/g1/taller/src/recordatorio.cpp" -o CMakeFiles/taller.dir/src/recordatorio.cpp.s
+
 # Object files for target taller
 taller_OBJECTS = \
 "CMakeFiles/taller.dir/main.cpp.o" \
-"CMakeFiles/taller.dir/src/clases.cpp.o" \
-"CMakeFiles/taller.dir/src/agenda.cpp.o"
+"CMakeFiles/taller.dir/src/agenda.cpp.o" \
+"CMakeFiles/taller.dir/src/fecha.cpp.o" \
+"CMakeFiles/taller.dir/src/horario.cpp.o" \
+"CMakeFiles/taller.dir/src/recordatorio.cpp.o"
 
 # External object files for target taller
 taller_EXTERNAL_OBJECTS =
 
 taller.exe: CMakeFiles/taller.dir/main.cpp.o
-taller.exe: CMakeFiles/taller.dir/src/clases.cpp.o
 taller.exe: CMakeFiles/taller.dir/src/agenda.cpp.o
+taller.exe: CMakeFiles/taller.dir/src/fecha.cpp.o
+taller.exe: CMakeFiles/taller.dir/src/horario.cpp.o
+taller.exe: CMakeFiles/taller.dir/src/recordatorio.cpp.o
 taller.exe: CMakeFiles/taller.dir/build.make
 taller.exe: CMakeFiles/taller.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/cygdrive/d/Universidad/Algoritmos y Estructuras de Datos II/TPs/Individual/algo2-2021c1-individual/g1/taller/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable taller.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/cygdrive/d/Universidad/Algoritmos y Estructuras de Datos II/TPs/Individual/algo2-2021c1-individual/g1/taller/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable taller.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/taller.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

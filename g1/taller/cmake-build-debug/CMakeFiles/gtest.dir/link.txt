@@ -1,2 +1,2 @@
-/usr/bin/ar.exe qc libgtest.a  CMakeFiles/gtest.dir/tests/gtest-1.8.1/gtest-all.cc.o CMakeFiles/gtest.dir/src/clases.cpp.o CMakeFiles/gtest.dir/src/agenda.cpp.o
+/usr/bin/ar.exe qc libgtest.a  CMakeFiles/gtest.dir/tests/gtest-1.8.1/gtest-all.cc.o CMakeFiles/gtest.dir/src/agenda.cpp.o CMakeFiles/gtest.dir/src/fecha.cpp.o CMakeFiles/gtest.dir/src/horario.cpp.o CMakeFiles/gtest.dir/src/recordatorio.cpp.o
 /usr/bin/ranlib.exe libgtest.a
