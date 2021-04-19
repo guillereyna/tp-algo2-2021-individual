@@ -22,4 +22,6 @@ private:
     list<Recordatorio> listaDeRecordatorios_;
 };
 
+ostream& operator<<(ostream& os, Agenda a);
+
 #endif //TALLER_AGENDA_H

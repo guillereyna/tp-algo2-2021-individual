@@ -18,6 +18,10 @@ string Recordatorio::mensaje() {
     return msg_;
 }
 
+bool Recordatorio::operator<(Recordatorio r) {
+    return this->horario() < r.horario();
+}
+
 ostream& operator<<(ostream& os, Recordatorio r){
     os << r.mensaje() << " @ " << r.fecha() << " " << r.horario();
     return os;

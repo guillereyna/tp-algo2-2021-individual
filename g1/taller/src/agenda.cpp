@@ -25,5 +25,14 @@ list<Recordatorio> Agenda::recordatorios_de_hoy() {
             recDeHoy.push_back(rec);
         }
     }
+    recDeHoy.sort();
     return recDeHoy;
+}
+
+ostream& operator<<(ostream& os, Agenda a){
+    os << a.hoy() << endl << "=====" << endl;
+    for (auto rec : a.recordatorios_de_hoy()){
+        os << rec << endl;
+    }
+    return os;
 }

@@ -19,4 +19,6 @@ class Horario {
         uint min_;
     };
 
+ostream& operator<<(ostream& os, Horario h);
+
 #endif //TALLER_HORARIO_H

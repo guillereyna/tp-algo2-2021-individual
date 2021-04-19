@@ -23,5 +23,7 @@ private:
     int dia_;
 };
 
+ostream& operator<<(ostream& os, Fecha fecha);
+
 
 #endif //TALLER_FECHA_H

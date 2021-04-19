@@ -12,6 +12,7 @@ public:
     Fecha fecha();
     Horario horario();
     string mensaje();
+    bool operator<(Recordatorio r);
 
 private:
     string msg_;
@@ -19,5 +20,6 @@ private:
     Fecha fecha_;
 };
 
+ostream& operator<<(ostream& os, Recordatorio r);
 
 #endif //TALLER_RECORDATORIO_H
