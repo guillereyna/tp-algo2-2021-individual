@@ -4,6 +4,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/taller.dir/src/fecha.cpp.o"
   "CMakeFiles/taller.dir/src/horario.cpp.o"
   "CMakeFiles/taller.dir/src/recordatorio.cpp.o"
+  "CMakeFiles/taller.dir/tests/tests.cpp.o"
   "libtaller.dll.a"
   "taller.exe"
   "taller.pdb"

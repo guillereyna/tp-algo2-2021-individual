@@ -5,8 +5,8 @@ set(CMAKE_CXX_STANDARD 11)
 
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -pthread -std=gnu++11 -ggdb3 -g")
 
-add_library(gtest STATIC tests/gtest-1.8.1/gtest-all.cc src/agenda.cpp src/agenda.h src/fecha.cpp src/fecha.h src/horario.cpp src/horario.h src/recordatorio.cpp src/recordatorio.h)
-add_library(gtest_main STATIC tests/gtest-1.8.1/gtest_main.cc src/agenda.cpp src/agenda.h src/fecha.cpp src/fecha.h src/horario.cpp src/horario.h src/recordatorio.cpp src/recordatorio.h)
+add_library(gtest STATIC tests/gtest-1.8.1/gtest-all.cc src/agenda.cpp src/agenda.h src/fecha.cpp src/fecha.h src/horario.cpp src/horario.h src/recordatorio.cpp src/recordatorio.h tests/tests.cpp)
+add_library(gtest_main STATIC tests/gtest-1.8.1/gtest_main.cc src/agenda.cpp src/agenda.h src/fecha.cpp src/fecha.h src/horario.cpp src/horario.h src/recordatorio.cpp src/recordatorio.h tests/tests.cpp)
 
-add_executable(taller main.cpp src/agenda.cpp src/agenda.h src/fecha.cpp src/fecha.h src/horario.cpp src/horario.h src/recordatorio.cpp src/recordatorio.h)
+add_executable(taller main.cpp src/agenda.cpp src/agenda.h src/fecha.cpp src/fecha.h src/horario.cpp src/horario.h src/recordatorio.cpp src/recordatorio.h tests/tests.cpp)
 

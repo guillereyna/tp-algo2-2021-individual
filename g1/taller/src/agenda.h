@@ -16,6 +16,10 @@ public:
     void incrementar_dia();
     list<Recordatorio> recordatorios_de_hoy();
     Fecha hoy();
+
+private:
+    Fecha fechaDeHoy_;
+    list<Recordatorio> listaDeRecordatorios_;
 };
 
 #endif //TALLER_AGENDA_H
