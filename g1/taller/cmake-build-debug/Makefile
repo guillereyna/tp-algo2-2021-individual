@@ -131,17 +131,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named taller
+# Target rules for targets named testing
 
 # Build rule for target.
-taller: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 taller
-.PHONY : taller
+testing: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 testing
+.PHONY : testing
 
 # fast build rule for target.
-taller/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/taller.dir/build.make CMakeFiles/taller.dir/build
-.PHONY : taller/fast
+testing/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testing.dir/build.make CMakeFiles/testing.dir/build
+.PHONY : testing/fast
 
 #=============================================================================
 # Target rules for targets named gtest_main
@@ -169,42 +169,13 @@ gtest/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/gtest.dir/build.make CMakeFiles/gtest.dir/build
 .PHONY : gtest/fast
 
-main.o: main.cpp.o
-
-.PHONY : main.o
-
-# target to build an object file
-main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/taller.dir/build.make CMakeFiles/taller.dir/main.cpp.o
-.PHONY : main.cpp.o
-
-main.i: main.cpp.i
-
-.PHONY : main.i
-
-# target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/taller.dir/build.make CMakeFiles/taller.dir/main.cpp.i
-.PHONY : main.cpp.i
-
-main.s: main.cpp.s
-
-.PHONY : main.s
-
-# target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/taller.dir/build.make CMakeFiles/taller.dir/main.cpp.s
-.PHONY : main.cpp.s
-
 src/agenda.o: src/agenda.cpp.o
 
 .PHONY : src/agenda.o
 
 # target to build an object file
 src/agenda.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/taller.dir/build.make CMakeFiles/taller.dir/src/agenda.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/gtest_main.dir/build.make CMakeFiles/gtest_main.dir/src/agenda.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/gtest.dir/build.make CMakeFiles/gtest.dir/src/agenda.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testing.dir/build.make CMakeFiles/testing.dir/src/agenda.cpp.o
 .PHONY : src/agenda.cpp.o
 
 src/agenda.i: src/agenda.cpp.i
@@ -213,9 +184,7 @@ src/agenda.i: src/agenda.cpp.i
 
 # target to preprocess a source file
 src/agenda.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/taller.dir/build.make CMakeFiles/taller.dir/src/agenda.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/gtest_main.dir/build.make CMakeFiles/gtest_main.dir/src/agenda.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/gtest.dir/build.make CMakeFiles/gtest.dir/src/agenda.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testing.dir/build.make CMakeFiles/testing.dir/src/agenda.cpp.i
 .PHONY : src/agenda.cpp.i
 
 src/agenda.s: src/agenda.cpp.s
@@ -224,9 +193,7 @@ src/agenda.s: src/agenda.cpp.s
 
 # target to generate assembly for a file
 src/agenda.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/taller.dir/build.make CMakeFiles/taller.dir/src/agenda.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/gtest_main.dir/build.make CMakeFiles/gtest_main.dir/src/agenda.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/gtest.dir/build.make CMakeFiles/gtest.dir/src/agenda.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testing.dir/build.make CMakeFiles/testing.dir/src/agenda.cpp.s
 .PHONY : src/agenda.cpp.s
 
 src/fecha.o: src/fecha.cpp.o
@@ -235,9 +202,7 @@ src/fecha.o: src/fecha.cpp.o
 
 # target to build an object file
 src/fecha.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/taller.dir/build.make CMakeFiles/taller.dir/src/fecha.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/gtest_main.dir/build.make CMakeFiles/gtest_main.dir/src/fecha.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/gtest.dir/build.make CMakeFiles/gtest.dir/src/fecha.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testing.dir/build.make CMakeFiles/testing.dir/src/fecha.cpp.o
 .PHONY : src/fecha.cpp.o
 
 src/fecha.i: src/fecha.cpp.i
@@ -246,9 +211,7 @@ src/fecha.i: src/fecha.cpp.i
 
 # target to preprocess a source file
 src/fecha.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/taller.dir/build.make CMakeFiles/taller.dir/src/fecha.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/gtest_main.dir/build.make CMakeFiles/gtest_main.dir/src/fecha.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/gtest.dir/build.make CMakeFiles/gtest.dir/src/fecha.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testing.dir/build.make CMakeFiles/testing.dir/src/fecha.cpp.i
 .PHONY : src/fecha.cpp.i
 
 src/fecha.s: src/fecha.cpp.s
@@ -257,9 +220,7 @@ src/fecha.s: src/fecha.cpp.s
 
 # target to generate assembly for a file
 src/fecha.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/taller.dir/build.make CMakeFiles/taller.dir/src/fecha.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/gtest_main.dir/build.make CMakeFiles/gtest_main.dir/src/fecha.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/gtest.dir/build.make CMakeFiles/gtest.dir/src/fecha.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testing.dir/build.make CMakeFiles/testing.dir/src/fecha.cpp.s
 .PHONY : src/fecha.cpp.s
 
 src/horario.o: src/horario.cpp.o
@@ -268,9 +229,7 @@ src/horario.o: src/horario.cpp.o
 
 # target to build an object file
 src/horario.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/taller.dir/build.make CMakeFiles/taller.dir/src/horario.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/gtest_main.dir/build.make CMakeFiles/gtest_main.dir/src/horario.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/gtest.dir/build.make CMakeFiles/gtest.dir/src/horario.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testing.dir/build.make CMakeFiles/testing.dir/src/horario.cpp.o
 .PHONY : src/horario.cpp.o
 
 src/horario.i: src/horario.cpp.i
@@ -279,9 +238,7 @@ src/horario.i: src/horario.cpp.i
 
 # target to preprocess a source file
 src/horario.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/taller.dir/build.make CMakeFiles/taller.dir/src/horario.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/gtest_main.dir/build.make CMakeFiles/gtest_main.dir/src/horario.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/gtest.dir/build.make CMakeFiles/gtest.dir/src/horario.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testing.dir/build.make CMakeFiles/testing.dir/src/horario.cpp.i
 .PHONY : src/horario.cpp.i
 
 src/horario.s: src/horario.cpp.s
@@ -290,9 +247,7 @@ src/horario.s: src/horario.cpp.s
 
 # target to generate assembly for a file
 src/horario.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/taller.dir/build.make CMakeFiles/taller.dir/src/horario.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/gtest_main.dir/build.make CMakeFiles/gtest_main.dir/src/horario.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/gtest.dir/build.make CMakeFiles/gtest.dir/src/horario.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testing.dir/build.make CMakeFiles/testing.dir/src/horario.cpp.s
 .PHONY : src/horario.cpp.s
 
 src/recordatorio.o: src/recordatorio.cpp.o
@@ -301,9 +256,7 @@ src/recordatorio.o: src/recordatorio.cpp.o
 
 # target to build an object file
 src/recordatorio.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/taller.dir/build.make CMakeFiles/taller.dir/src/recordatorio.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/gtest_main.dir/build.make CMakeFiles/gtest_main.dir/src/recordatorio.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/gtest.dir/build.make CMakeFiles/gtest.dir/src/recordatorio.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testing.dir/build.make CMakeFiles/testing.dir/src/recordatorio.cpp.o
 .PHONY : src/recordatorio.cpp.o
 
 src/recordatorio.i: src/recordatorio.cpp.i
@@ -312,9 +265,7 @@ src/recordatorio.i: src/recordatorio.cpp.i
 
 # target to preprocess a source file
 src/recordatorio.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/taller.dir/build.make CMakeFiles/taller.dir/src/recordatorio.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/gtest_main.dir/build.make CMakeFiles/gtest_main.dir/src/recordatorio.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/gtest.dir/build.make CMakeFiles/gtest.dir/src/recordatorio.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testing.dir/build.make CMakeFiles/testing.dir/src/recordatorio.cpp.i
 .PHONY : src/recordatorio.cpp.i
 
 src/recordatorio.s: src/recordatorio.cpp.s
@@ -323,9 +274,7 @@ src/recordatorio.s: src/recordatorio.cpp.s
 
 # target to generate assembly for a file
 src/recordatorio.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/taller.dir/build.make CMakeFiles/taller.dir/src/recordatorio.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/gtest_main.dir/build.make CMakeFiles/gtest_main.dir/src/recordatorio.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/gtest.dir/build.make CMakeFiles/gtest.dir/src/recordatorio.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testing.dir/build.make CMakeFiles/testing.dir/src/recordatorio.cpp.s
 .PHONY : src/recordatorio.cpp.s
 
 tests/gtest-1.8.1/gtest-all.o: tests/gtest-1.8.1/gtest-all.cc.o
@@ -388,9 +337,7 @@ tests/tests.o: tests/tests.cpp.o
 
 # target to build an object file
 tests/tests.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/taller.dir/build.make CMakeFiles/taller.dir/tests/tests.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/gtest_main.dir/build.make CMakeFiles/gtest_main.dir/tests/tests.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/gtest.dir/build.make CMakeFiles/gtest.dir/tests/tests.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testing.dir/build.make CMakeFiles/testing.dir/tests/tests.cpp.o
 .PHONY : tests/tests.cpp.o
 
 tests/tests.i: tests/tests.cpp.i
@@ -399,9 +346,7 @@ tests/tests.i: tests/tests.cpp.i
 
 # target to preprocess a source file
 tests/tests.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/taller.dir/build.make CMakeFiles/taller.dir/tests/tests.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/gtest_main.dir/build.make CMakeFiles/gtest_main.dir/tests/tests.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/gtest.dir/build.make CMakeFiles/gtest.dir/tests/tests.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testing.dir/build.make CMakeFiles/testing.dir/tests/tests.cpp.i
 .PHONY : tests/tests.cpp.i
 
 tests/tests.s: tests/tests.cpp.s
@@ -410,9 +355,7 @@ tests/tests.s: tests/tests.cpp.s
 
 # target to generate assembly for a file
 tests/tests.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/taller.dir/build.make CMakeFiles/taller.dir/tests/tests.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/gtest_main.dir/build.make CMakeFiles/gtest_main.dir/tests/tests.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/gtest.dir/build.make CMakeFiles/gtest.dir/tests/tests.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testing.dir/build.make CMakeFiles/testing.dir/tests/tests.cpp.s
 .PHONY : tests/tests.cpp.s
 
 # Help Target
@@ -425,10 +368,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... gtest"
 	@echo "... gtest_main"
-	@echo "... taller"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... testing"
 	@echo "... src/agenda.o"
 	@echo "... src/agenda.i"
 	@echo "... src/agenda.s"

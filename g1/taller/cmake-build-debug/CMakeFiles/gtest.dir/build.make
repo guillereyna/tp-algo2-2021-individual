@@ -90,92 +90,17 @@ CMakeFiles/gtest.dir/tests/gtest-1.8.1/gtest-all.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gtest.dir/tests/gtest-1.8.1/gtest-all.cc.s"
 	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/cygdrive/d/Universidad/Algoritmos y Estructuras de Datos II/TPs/Individual/algo2-2021c1-individual/g1/taller/tests/gtest-1.8.1/gtest-all.cc" -o CMakeFiles/gtest.dir/tests/gtest-1.8.1/gtest-all.cc.s
 
-CMakeFiles/gtest.dir/src/agenda.cpp.o: CMakeFiles/gtest.dir/flags.make
-CMakeFiles/gtest.dir/src/agenda.cpp.o: ../src/agenda.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/cygdrive/d/Universidad/Algoritmos y Estructuras de Datos II/TPs/Individual/algo2-2021c1-individual/g1/taller/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/gtest.dir/src/agenda.cpp.o"
-	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtest.dir/src/agenda.cpp.o -c "/cygdrive/d/Universidad/Algoritmos y Estructuras de Datos II/TPs/Individual/algo2-2021c1-individual/g1/taller/src/agenda.cpp"
-
-CMakeFiles/gtest.dir/src/agenda.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gtest.dir/src/agenda.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/cygdrive/d/Universidad/Algoritmos y Estructuras de Datos II/TPs/Individual/algo2-2021c1-individual/g1/taller/src/agenda.cpp" > CMakeFiles/gtest.dir/src/agenda.cpp.i
-
-CMakeFiles/gtest.dir/src/agenda.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gtest.dir/src/agenda.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/cygdrive/d/Universidad/Algoritmos y Estructuras de Datos II/TPs/Individual/algo2-2021c1-individual/g1/taller/src/agenda.cpp" -o CMakeFiles/gtest.dir/src/agenda.cpp.s
-
-CMakeFiles/gtest.dir/src/fecha.cpp.o: CMakeFiles/gtest.dir/flags.make
-CMakeFiles/gtest.dir/src/fecha.cpp.o: ../src/fecha.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/cygdrive/d/Universidad/Algoritmos y Estructuras de Datos II/TPs/Individual/algo2-2021c1-individual/g1/taller/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/gtest.dir/src/fecha.cpp.o"
-	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtest.dir/src/fecha.cpp.o -c "/cygdrive/d/Universidad/Algoritmos y Estructuras de Datos II/TPs/Individual/algo2-2021c1-individual/g1/taller/src/fecha.cpp"
-
-CMakeFiles/gtest.dir/src/fecha.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gtest.dir/src/fecha.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/cygdrive/d/Universidad/Algoritmos y Estructuras de Datos II/TPs/Individual/algo2-2021c1-individual/g1/taller/src/fecha.cpp" > CMakeFiles/gtest.dir/src/fecha.cpp.i
-
-CMakeFiles/gtest.dir/src/fecha.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gtest.dir/src/fecha.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/cygdrive/d/Universidad/Algoritmos y Estructuras de Datos II/TPs/Individual/algo2-2021c1-individual/g1/taller/src/fecha.cpp" -o CMakeFiles/gtest.dir/src/fecha.cpp.s
-
-CMakeFiles/gtest.dir/src/horario.cpp.o: CMakeFiles/gtest.dir/flags.make
-CMakeFiles/gtest.dir/src/horario.cpp.o: ../src/horario.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/cygdrive/d/Universidad/Algoritmos y Estructuras de Datos II/TPs/Individual/algo2-2021c1-individual/g1/taller/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/gtest.dir/src/horario.cpp.o"
-	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtest.dir/src/horario.cpp.o -c "/cygdrive/d/Universidad/Algoritmos y Estructuras de Datos II/TPs/Individual/algo2-2021c1-individual/g1/taller/src/horario.cpp"
-
-CMakeFiles/gtest.dir/src/horario.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gtest.dir/src/horario.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/cygdrive/d/Universidad/Algoritmos y Estructuras de Datos II/TPs/Individual/algo2-2021c1-individual/g1/taller/src/horario.cpp" > CMakeFiles/gtest.dir/src/horario.cpp.i
-
-CMakeFiles/gtest.dir/src/horario.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gtest.dir/src/horario.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/cygdrive/d/Universidad/Algoritmos y Estructuras de Datos II/TPs/Individual/algo2-2021c1-individual/g1/taller/src/horario.cpp" -o CMakeFiles/gtest.dir/src/horario.cpp.s
-
-CMakeFiles/gtest.dir/src/recordatorio.cpp.o: CMakeFiles/gtest.dir/flags.make
-CMakeFiles/gtest.dir/src/recordatorio.cpp.o: ../src/recordatorio.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/cygdrive/d/Universidad/Algoritmos y Estructuras de Datos II/TPs/Individual/algo2-2021c1-individual/g1/taller/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/gtest.dir/src/recordatorio.cpp.o"
-	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtest.dir/src/recordatorio.cpp.o -c "/cygdrive/d/Universidad/Algoritmos y Estructuras de Datos II/TPs/Individual/algo2-2021c1-individual/g1/taller/src/recordatorio.cpp"
-
-CMakeFiles/gtest.dir/src/recordatorio.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gtest.dir/src/recordatorio.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/cygdrive/d/Universidad/Algoritmos y Estructuras de Datos II/TPs/Individual/algo2-2021c1-individual/g1/taller/src/recordatorio.cpp" > CMakeFiles/gtest.dir/src/recordatorio.cpp.i
-
-CMakeFiles/gtest.dir/src/recordatorio.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gtest.dir/src/recordatorio.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/cygdrive/d/Universidad/Algoritmos y Estructuras de Datos II/TPs/Individual/algo2-2021c1-individual/g1/taller/src/recordatorio.cpp" -o CMakeFiles/gtest.dir/src/recordatorio.cpp.s
-
-CMakeFiles/gtest.dir/tests/tests.cpp.o: CMakeFiles/gtest.dir/flags.make
-CMakeFiles/gtest.dir/tests/tests.cpp.o: ../tests/tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/cygdrive/d/Universidad/Algoritmos y Estructuras de Datos II/TPs/Individual/algo2-2021c1-individual/g1/taller/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/gtest.dir/tests/tests.cpp.o"
-	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtest.dir/tests/tests.cpp.o -c "/cygdrive/d/Universidad/Algoritmos y Estructuras de Datos II/TPs/Individual/algo2-2021c1-individual/g1/taller/tests/tests.cpp"
-
-CMakeFiles/gtest.dir/tests/tests.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gtest.dir/tests/tests.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/cygdrive/d/Universidad/Algoritmos y Estructuras de Datos II/TPs/Individual/algo2-2021c1-individual/g1/taller/tests/tests.cpp" > CMakeFiles/gtest.dir/tests/tests.cpp.i
-
-CMakeFiles/gtest.dir/tests/tests.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gtest.dir/tests/tests.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/cygdrive/d/Universidad/Algoritmos y Estructuras de Datos II/TPs/Individual/algo2-2021c1-individual/g1/taller/tests/tests.cpp" -o CMakeFiles/gtest.dir/tests/tests.cpp.s
-
 # Object files for target gtest
 gtest_OBJECTS = \
-"CMakeFiles/gtest.dir/tests/gtest-1.8.1/gtest-all.cc.o" \
-"CMakeFiles/gtest.dir/src/agenda.cpp.o" \
-"CMakeFiles/gtest.dir/src/fecha.cpp.o" \
-"CMakeFiles/gtest.dir/src/horario.cpp.o" \
-"CMakeFiles/gtest.dir/src/recordatorio.cpp.o" \
-"CMakeFiles/gtest.dir/tests/tests.cpp.o"
+"CMakeFiles/gtest.dir/tests/gtest-1.8.1/gtest-all.cc.o"
 
 # External object files for target gtest
 gtest_EXTERNAL_OBJECTS =
 
 libgtest.a: CMakeFiles/gtest.dir/tests/gtest-1.8.1/gtest-all.cc.o
-libgtest.a: CMakeFiles/gtest.dir/src/agenda.cpp.o
-libgtest.a: CMakeFiles/gtest.dir/src/fecha.cpp.o
-libgtest.a: CMakeFiles/gtest.dir/src/horario.cpp.o
-libgtest.a: CMakeFiles/gtest.dir/src/recordatorio.cpp.o
-libgtest.a: CMakeFiles/gtest.dir/tests/tests.cpp.o
 libgtest.a: CMakeFiles/gtest.dir/build.make
 libgtest.a: CMakeFiles/gtest.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/cygdrive/d/Universidad/Algoritmos y Estructuras de Datos II/TPs/Individual/algo2-2021c1-individual/g1/taller/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX static library libgtest.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/cygdrive/d/Universidad/Algoritmos y Estructuras de Datos II/TPs/Individual/algo2-2021c1-individual/g1/taller/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libgtest.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/gtest.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gtest.dir/link.txt --verbose=$(VERBOSE)
 

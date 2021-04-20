@@ -29,9 +29,9 @@ list<Recordatorio> Agenda::recordatorios_de_hoy() {
     return recDeHoy;
 }
 
-ostream& operator<<(ostream& os, Agenda a){
+ostream &operator<<(ostream &os, Agenda a) {
     os << a.hoy() << endl << "=====" << endl;
-    for (auto rec : a.recordatorios_de_hoy()){
+    for (auto rec : a.recordatorios_de_hoy()) {
         os << rec << endl;
     }
     return os;

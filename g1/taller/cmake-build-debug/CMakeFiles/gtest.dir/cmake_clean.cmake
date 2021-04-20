@@ -1,10 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/gtest.dir/src/agenda.cpp.o"
-  "CMakeFiles/gtest.dir/src/fecha.cpp.o"
-  "CMakeFiles/gtest.dir/src/horario.cpp.o"
-  "CMakeFiles/gtest.dir/src/recordatorio.cpp.o"
   "CMakeFiles/gtest.dir/tests/gtest-1.8.1/gtest-all.cc.o"
-  "CMakeFiles/gtest.dir/tests/tests.cpp.o"
   "libgtest.a"
   "libgtest.pdb"
 )
