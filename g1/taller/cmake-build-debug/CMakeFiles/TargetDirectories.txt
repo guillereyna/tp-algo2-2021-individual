@@ -1,5 +1,0 @@
-/cygdrive/d/Universidad/Algoritmos y Estructuras de Datos II/TPs/Individual/algo2-2021c1-individual/g1/taller/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/cygdrive/d/Universidad/Algoritmos y Estructuras de Datos II/TPs/Individual/algo2-2021c1-individual/g1/taller/cmake-build-debug/CMakeFiles/edit_cache.dir
-/cygdrive/d/Universidad/Algoritmos y Estructuras de Datos II/TPs/Individual/algo2-2021c1-individual/g1/taller/cmake-build-debug/CMakeFiles/testing.dir
-/cygdrive/d/Universidad/Algoritmos y Estructuras de Datos II/TPs/Individual/algo2-2021c1-individual/g1/taller/cmake-build-debug/CMakeFiles/gtest_main.dir
-/cygdrive/d/Universidad/Algoritmos y Estructuras de Datos II/TPs/Individual/algo2-2021c1-individual/g1/taller/cmake-build-debug/CMakeFiles/gtest.dir
