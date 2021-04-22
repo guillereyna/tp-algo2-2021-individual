@@ -9,10 +9,10 @@
 class Horario {
     public:
         Horario(uint hora, uint min);
-        uint hora();
-        uint min();
-        bool operator==(Horario o);
-        bool operator<(Horario h);
+        uint hora() const;
+        uint min() const;
+        bool operator==(const Horario o) const;
+        bool operator<(const Horario h) const;
 
     private:
         uint hora_;

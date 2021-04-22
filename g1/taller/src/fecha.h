@@ -12,10 +12,10 @@ using namespace std;
 
 class Fecha {
 public:
-    bool operator==(Fecha o);
+    bool operator==(const Fecha o) const;
     Fecha(int mes, int dia);
-    int mes();
-    int dia();
+    int mes() const;
+    int dia() const;
     void incrementar_dia();
 
 private:

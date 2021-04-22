@@ -6,15 +6,15 @@
 
 Horario::Horario(uint hora, uint min) : hora_(hora), min_(min) {}
 
-uint Horario::hora() {
+uint Horario::hora() const {
     return hora_;
 }
 
-uint Horario::min() {
+uint Horario::min() const {
     return min_;
 }
 
-bool Horario::operator==(Horario o) {
+bool Horario::operator==(const Horario o) const {
     return this->hora() == o.hora() && this->min() == o.min();
 }
 
@@ -23,7 +23,7 @@ ostream& operator<<(ostream& os, Horario h){
     return os;
 }
 
-bool Horario::operator<(Horario h) {
+bool Horario::operator<(const Horario h) const {
     bool res = false;
     if (this->hora() < h.hora()) {
         res = true;

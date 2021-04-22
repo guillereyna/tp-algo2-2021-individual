@@ -20,11 +20,11 @@ uint dias_en_mes(uint mes) {
 
 Fecha::Fecha(int mes, int dia) : mes_(mes), dia_(dia) {}
 
-int Fecha::mes() {
+int Fecha::mes() const {
     return mes_;
 }
 
-int Fecha::dia() {
+int Fecha::dia() const {
     return dia_;
 }
 
@@ -34,7 +34,7 @@ ostream& operator<<(ostream& os, Fecha fecha) {
 }
 
 
-bool Fecha::operator==(Fecha o) {
+bool Fecha::operator==(const Fecha o) const {
     bool igual_dia = this->dia() == o.dia() && this->mes() == o.mes();
     return igual_dia;
 }

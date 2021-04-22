@@ -9,10 +9,11 @@
 class Recordatorio {
 public:
     Recordatorio(Fecha f, Horario h, string msg);
-    Fecha fecha();
-    Horario horario();
-    string mensaje();
-    bool operator<(Recordatorio r);
+    Fecha fecha() const;
+    Horario horario() const;
+    string mensaje() const;
+    bool operator<(const Recordatorio r) const;
+    bool operator==(const Recordatorio r) const;
 
 private:
     string msg_;
