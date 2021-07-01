@@ -101,9 +101,9 @@ void string_map<T>::erase(const string& clave) {
     while (actual->sinSiguientes() && !actual->definicion && i > 0) {
         nodos_clave.pop_back();
         actual = nodos_clave.back();
-        --i;
         delete(actual->siguientes[int(clave[i])]);
         actual->siguientes[int(clave[i])] = NULL;
+        --i;
     }
     if (raiz->sinSiguientes()) delete(raiz);
     --_size;
