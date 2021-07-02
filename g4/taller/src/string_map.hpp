@@ -88,24 +88,29 @@ T& string_map<T>::at(const string& clave) {
 
 template <typename T>
 void string_map<T>::erase(const string& clave) {
+    int n = clave.size();
     Nodo* actual = raiz;
     vector<Nodo*> nodos_clave;
-    int i = 0;
-    while (i < clave.size()) {
+    nodos_clave.push_back(raiz);
+    for (int i = 0; i < n; ++i) {
         actual = actual->siguientes[int(clave[i])];
         nodos_clave.push_back(actual);
-        ++i;
     }
     delete(actual->definicion);
-    actual->definicion = NULL;
-    while (actual->sinSiguientes() && !actual->definicion && i > 0) {
+    actual->definicion = nullptr;
+    int i = n;
+    while(!actual->definicion && actual->sinSiguientes() && nodos_clave.size() > 1) {
+        Nodo* aBorrar = actual;
         nodos_clave.pop_back();
         actual = nodos_clave.back();
-        delete(actual->siguientes[int(clave[i])]);
-        actual->siguientes[int(clave[i])] = NULL;
+        delete(aBorrar);
         --i;
+        actual->siguientes[int(clave[i])] = nullptr;
     }
-    if (raiz->sinSiguientes()) delete(raiz);
+    if (raiz->sinSiguientes()){
+        delete(raiz);
+        raiz = nullptr;
+    }
     --_size;
     int a_borrar;
     for (int j = 0; j < _claves.size(); ++j) {
@@ -151,7 +156,7 @@ void string_map<T>::insert(const pair<string, T>& value_type) {                 
         _claves.push_back(clave);
     }
     if (actual->definicion) delete(actual->definicion);
-    actual->definicion = new T(def);
+    actual->definicion = new T(def); // esto es raro
 }
 
 template<typename T>
